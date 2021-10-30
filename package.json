@@ -1,0 +1,25 @@
+{
+  "name": "vue3_quick_template",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue-jsx": "^1.2.0",
+    "axios": "0.24.0",
+    "vfonts": "^0.1.0",
+    "vue": "^3.2.16",
+    "vue-router": "4.0.11"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "@vitejs/plugin-vue": "1.9.4",
+    "axios": "0.24.0",
+    "sass": "^1.43.4",
+    "vite": "2.6.13",
+    "vue-i18n": "^9.2.0-beta.15",
+    "vue-router": "^4.0.2",
+    "vuex": "^4.0.2"
+  }
+}
