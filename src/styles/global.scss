@@ -1,0 +1,79 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+html{
+  min-height: 100%;
+}
+
+:root {
+  --color-input-bg: #f4f5f5;
+  --color-input-error-bg: #ffece8;
+  --color-input-placeholder: #86909c;
+  --color-input-text: #4e5969;
+  --color-input-icon: #f53f3f;
+  --body--color: #fff;
+  --header--bg: #1e1e20d9;
+  --header--text: #fff;
+  --footer--bg: #1b1b1b;
+  --footer--text: #fff6;;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-row-warp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-row-around {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-row-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-center-center{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.error-container{
+  padding: 40px 40px;
+}
