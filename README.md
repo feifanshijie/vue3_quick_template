@@ -2,6 +2,16 @@
 
 > vue3 快速开发模板，集成了常用组件
 
+### 快速使用
+```bash
+git clone git@github.com:feifanshijie/vue3_quick_template.git
+cd vue3_quick_template
+npm install
+npm run dev
+```
+
+
+### 目录结构
 ```
 |-src
     |-apis          api请求
@@ -17,6 +27,7 @@
     |-utils         工具封装
 ```
 
+### 相关组件
 ```bash
 # vue-router 没什么好说的
 npm install --save-dev vue-router
