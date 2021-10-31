@@ -14,7 +14,7 @@ export default defineComponent({
 		onMounted(() => init())
 		return () => (
 			<>
-				index
+				home
 			</>
 		)
 	},
