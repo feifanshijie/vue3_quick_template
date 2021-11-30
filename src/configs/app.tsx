@@ -1,7 +1,6 @@
-const env = '';
+// @ts-nocheck
 export const App = {
 	name: "",
 	version: "",
-	apiBaseURL: "http://localhost:8000",
+	apiBaseURL: import.meta.env.VITE_API_URL,
 }
-

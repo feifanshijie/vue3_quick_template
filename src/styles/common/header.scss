@@ -1,0 +1,34 @@
+@import "common";
+
+.layout-page-header {
+  @extend .layout-container;
+  position: fixed;
+  top: 0;
+  padding: 10px 0;
+  z-index: 10;
+  transition: all .25s ease-in-out;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 2.75px 2.21px rgb(0 0 0 / 7%), 0 6.65px 5.32px rgb(0 0 0 / 4%), 0 12.5px 10px rgb(0 0 0 / 3%), 0 22px 18px rgb(0 0 0 / 3%), 0 42px 33.4px rgb(0 0 0 / 2%), 0 100px 80px rgb(0 0 0 / 2%), 0 1px 0 0 rgb(4 13 33 / 10%);
+  .layout-page-header-content {
+    @extend .container-content;
+    margin: 0 auto;
+    @media only screen and (min-width: $layoutPcMinWidth) {
+
+    }
+    @media screen and (min-width: $layoutMinWidth) and (max-width: $layoutMaxWidth) {
+
+    }
+    .layout-page-header-left {
+
+    }
+    .layout-page-header-right {
+
+    }
+  }
+}
+.header-link-home{
+
+}
+.header-link{
+  margin-left: 5px;
+}

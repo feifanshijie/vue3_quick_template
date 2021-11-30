@@ -1,0 +1,11 @@
+.layout-page-footer {
+  width: 100%;
+  margin: 20px 0 0 0;
+  color: var(--footer--text);
+  background-color: var(--footer--bg);
+  .layout-page-footer-content {
+    padding: 50px 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

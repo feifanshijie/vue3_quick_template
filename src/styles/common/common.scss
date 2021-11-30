@@ -1,0 +1,21 @@
+@charset "UTF-8";
+// PC 最小宽度
+$layoutPcMinWidth: 1200px;
+// Mobile 最小宽度
+$layoutMinWidth: 320px;
+// 移动端 最大宽度
+$layoutMaxWidth: 1200px;
+// PC 内容宽度
+$layoutPcContentWidth: 1200px;
+
+.layout-container{
+  width: 100%;
+}
+.container-content{
+  @media only screen and (min-width: $layoutPcMinWidth) {
+    width: $layoutPcContentWidth;
+  }
+  @media screen and (min-width: $layoutMinWidth) and (max-width: $layoutMaxWidth) {
+    width: 100%;
+  }
+}

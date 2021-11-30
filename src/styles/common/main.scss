@@ -1,0 +1,11 @@
+@import "common";
+
+.layout-page-main {
+  @extend .layout-container;
+  margin-top:100px;
+  min-height: 80vh;
+  .layout-page-main-content{
+    @extend .container-content;
+    margin: 0 auto;
+  }
+}
